@@ -1,0 +1,332 @@
+.container{
+    width: 95%;
+    height: 100%;
+    background-color: rgb(52, 46, 46);
+    float: right;
+}
+/* .spinner{
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 3px solid white;
+    border-left-color: transparent;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 6;
+    margin: auto;
+}
+@keyframes rotate{
+    0%{ transform:rotate(0deg) ; -webkit-transform:rotate(0deg) ; -moz-transform:rotate(0deg) ; -ms-transform:rotate(0deg) ; -o-transform:rotate(0deg) ;
+}
+    100%{
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+}
+}
+.hidden{
+    display: none;
+} */
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+.spinner {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #3498db;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.hidden {
+    display: none;
+} */
+
+aside{
+    /* width:5%;
+    height:1000px;
+    background-color: black;
+    float: left; */
+    width: 5%;
+    height:900px;
+            position:fixed;
+            top: 9px;
+            left:10px;
+            background-color: #111;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+           
+    
+}
+aside:hover {
+    width:10%;
+    opacity: 0.7;
+
+    
+}
+.header h1{
+    color: white;
+    font-size: 24px;
+    background-image: linear-gradient(50deg , #172b83,#7974d6);;
+    padding: 10px;
+    width: 300px;
+    margin:auto ;
+    margin-top: 40px;
+    text-align: center;
+    border-top: 1px solid rgb(227, 227, 243);
+    border-right: 1px solid rgb(227, 227, 243);
+    border-bottom: 1px dotted rgb(227, 227, 243);
+    border-left: 1px solid #172b83;
+}
+nav{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    text-shadow: none;
+}
+a:hover{
+    color: #9d9c9c;
+   
+}
+.s{
+    display: inline-block;
+    position: relative;
+}
+.search-icon {
+    position: absolute;
+    border-radius:30%;
+    -webkit-border-radius:30%;
+    -moz-border-radius:30%;
+    -ms-border-radius:30%;
+    -o-border-radius:30%;
+    padding:5px;
+}
+.b {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    
+    /* margin: 10px; */
+     
+}
+.s:hover .b {
+   width:300px;
+   border: none;
+}
+/* .s{
+    display: inline-block;
+    position: relative;
+}
+.s button{
+    position: absolute;
+    border-radius:30%;
+    -webkit-border-radius:30%;
+    -moz-border-radius:30%;
+    -ms-border-radius:30%;
+    -o-border-radius:30%;
+   
+}
+.i{
+    width:0;
+}
+.s:focus .i{
+   display: inline-block;
+} */
+.content{
+    width:80%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-top: 50px;
+    
+}
+.content img{
+    width: 250px;
+    height: 200px;
+    box-shadow: 0 2px 2px 2px black;
+}
+.d1,.d2,.d3,.d4,.d5,.d6,.d7,.d8,.d9,.d10,.d11,.d12{
+    position: relative;
+}
+.d1:before{
+    content: "Image1";
+    text-align: center;
+    color: white;
+    line-height:50px;
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    background-color: rgb(16, 15, 15);
+    opacity: 0.7;
+    bottom:19%;
+}
+.d2:before{
+    content: "Image2";
+    text-align: center;
+    color: white;
+    line-height:50px;
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    background-color: black;
+    opacity: 0.6;
+    bottom:19%;
+}
+.d3:before{
+    content: "Image 3";
+    text-align: center;
+    color: white;
+    line-height:50px;
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    background-color: black;
+    opacity: 0.6;
+    bottom:19%;
+}
+.d4:before{
+    content: "Image 4";
+    text-align: center;
+    color: white;
+    line-height:50px;
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    background-color: black;
+    opacity: 0.7;
+    bottom:19%;
+}
+.d5:before{
+    content: "Image 5";
+    text-align: center;
+    color: white;
+    line-height:50px;
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    background-color: black;
+    opacity: 0.7;
+    bottom:19%;
+}
+.d6:before{
+    content: "Image 6";
+    text-align: center;
+    color: white;
+    line-height:50px;
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    background-color: black;
+    opacity: 0.7;
+    bottom:19%;
+}
+.d7:before{
+    content: "Image 7";
+    text-align: center;
+    color: white;
+    line-height:50px;
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    background-color: black;
+    opacity: 0.7;
+    bottom:19%;
+}
+.d8:before{
+    content: "Image 8";
+    text-align: center;
+    color: white;
+    line-height:50px;
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    background-color: black;
+    opacity: 0.7;
+    bottom:19%;
+}
+.d9:before{
+    content: "Image 9";
+    text-align: center;
+    color: white;
+    line-height:50px;
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    background-color: black;
+    opacity: 0.7;
+    bottom:19%;
+}
+.d10:before{
+    content: "Image 10";
+    text-align: center;
+    color: white;
+    line-height:50px;
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    background-color: black;
+    opacity: 0.7;
+    bottom:19%;
+}
+.d11:before{
+    content: "Image 11";
+    text-align: center;
+    color: white;
+    line-height:50px;
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    background-color: black;
+    opacity: 0.7;
+    bottom:19%;
+}
+.d12:before{
+    content: "Image 12";
+    text-align: center;
+    color: white;
+    line-height:50px;
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    background-color: black;
+    opacity: 0.7;
+    bottom:19%;
+}
+.content div {
+    
+    transition: transform 0.3s ease;
+}
+.content div:hover{
+    transform: scale(1.05);
+    
+}
